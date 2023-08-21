@@ -14,4 +14,3 @@ describe('My Login application', () => {
     })
     browser.pause(5000);
 })
-
