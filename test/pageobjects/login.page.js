@@ -1,4 +1,4 @@
-const { $ } = require('@wdio/globals')
+const { $, browser } = require('@wdio/globals')
 const Page = require('./page');
 
 /**
@@ -28,6 +28,7 @@ class LoginPage extends Page {
         await this.inputUsername.setValue(username);
         await this.inputPassword.setValue(password);
         await this.btnSubmit.click();
+        
     }
 
     /**
