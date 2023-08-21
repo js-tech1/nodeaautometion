@@ -1,0 +1,21 @@
+{
+  "name": "autometion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.15.5"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.15.4",
+    "@wdio/mocha-framework": "^8.15.4",
+    "@wdio/spec-reporter": "^8.15.0"
+  }
+}
